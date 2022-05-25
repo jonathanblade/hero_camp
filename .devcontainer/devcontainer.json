@@ -1,0 +1,14 @@
+{
+	"name": "hero_camp_dev",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "api",
+	"workspaceFolder": "/hero_camp",
+	"settings": {
+        "git.path": "/usr/bin/git"
+    },
+	"extensions": [
+		"ms-python.python",
+		"matangover.mypy"
+	],
+	"postCreateCommand": "poetry install"
+}
